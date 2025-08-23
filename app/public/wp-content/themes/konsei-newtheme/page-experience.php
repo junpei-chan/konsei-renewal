@@ -26,11 +26,11 @@
 
       <h2>団体様向け体験について</h2>
 
-      <div class="dantai">
-        <div class="about-group-top">
+      <div class="group-content">
+        <div class="group-top">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/group.png" alt="group-image">
 
-          <div class="about-group-top-text">
+          <div class="group-top-text">
             <p>Tシャツ、ハンカチ、手ぬぐい、ストール等、各種絞り染め体験を行っております。</p>
             <p>地域産業のひとつとして、学校などの授業の中でも体験していただいています。</p>
             <p>子供会やサークル活動、企業様のレクなど、お子様から大人の方まで楽しんでいただけます。</p>
@@ -38,8 +38,8 @@
           </div>
         </div>
 
-        <div class="about-group-bottom">
-          <div class="about-group-bottom-text">
+        <div class="group-bottom">
+          <div class="group-bottom-text">
             <p>ご自分たちで作り上げる、オリジナルの記念品や贈答品などとして！</p>
             <p>またおそろいのグッズ作りとしてもご好評いただいております。</p>
             <p>弊社では、化学染料を使用しております。色のバリエーションが豊富で、色もちも良く、初めての方でも安心して染色していいただけます。</p>
@@ -463,6 +463,18 @@
         </section>
       </div>
       
+    </div>
+  </div>
+
+  <div class="footer-guide-menu">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.png" alt="towel-belt-image">
+
+    <div class="footer-guide-text">
+      <p>自分で表紙をデザインできます。</p>
+      <p>メッセージを添えて贈り物にいかがですか？</p>
+      <p>手ぬぐい用の帯はこちらからダウンロードできます。</p>
+
+      <button>ダウンロード(69.6kb)</button>
     </div>
   </div>
 

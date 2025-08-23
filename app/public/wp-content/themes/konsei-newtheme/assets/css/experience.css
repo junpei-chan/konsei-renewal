@@ -307,14 +307,6 @@
 .design-box img{
   width: 350px;
 }
-.background2{
-  background-color: #dbe9f3;
-  padding: 50px 0;           
-  width: 100vw;
-  left: 0;
-  height: auto;
-}
-
 .group-section h2 {
   margin: 175px 0 75px 0;
   font-family: var(--normal-font-style);
@@ -425,4 +417,20 @@
   font-size: 20px;
   text-align: center;
   font-family: var(--normal-font-style);
+}
+.footer-guide-menu {
+  display: flex;
+  padding: 116px 275px;
+  justify-content: space-between;
+  background: var(--accent-light-color);
+}
+.footer-guide-menu img {
+  width: 345px;
+  height: 272px;
+}
+.footer-guide-text p {
+  font-family: var(--normal-font-style);
+}
+.footer-guide-text p:nth-of-type(3) {
+  
 }

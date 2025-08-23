@@ -45,7 +45,7 @@
             <p>弊社では、化学染料を使用しております。色のバリエーションが豊富で、色もちも良く、初めての方でも安心して染色していいただけます。</p>
           </div>
 
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/shirt.png" alt="shirt-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/shirt.jpg" alt="shirt-image">
         </div>
       </div>
 
@@ -308,7 +308,7 @@
             <p>※広幅の生地をカットしていて生地端は切りっぱなしです</p>
           </div>
         
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/denim-kimono.png" alt="denim-kimono-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/denim-kimono.jpg" alt="denim-kimono-image">
         </div>
       </section>
 
@@ -473,7 +473,7 @@
       <p>自分で表紙をデザインできます。</p>
       <p>メッセージを添えて贈り物にいかがですか？</p>
       <p>手ぬぐい用の帯はこちらからダウンロードできます。</p>
-
+      
       <button>ダウンロード(69.6kb)</button>
     </div>
   </div>

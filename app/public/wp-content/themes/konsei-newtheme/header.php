@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="<?php bloginfo('description'); ?>">
+  <title><?php echo bloginfo('name'); ?></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+JP:wght@200..900&family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <?php wp_head(); ?>
+</head>
+<body>
+  <header>
+    <a href="<?php echo home_url() ?>" class="header-logo">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="logo-image" class="header-logo-image">
+    </a>
+    <div class="header-nav-container">
+      <nav>
+        <ul class="header-nav">
+          <li><a href="<?php echo home_url() ?>/about" data-i18n="header-nav-item1">絞りについて</a></li>
+          <li><a href="<?php echo home_url() ?>/experience" data-i18n="header-nav-item2">体験紹介</a></li>
+          <li><a href="<?php echo home_url() ?>/offer" data-i18n="header-nav-item3">ご予約</a></li>
+          <li><a href="<?php echo home_url() ?>/active" data-i18n="header-nav-item4">活動実績</a></li>
+          <li><a href="<?php echo home_url() ?>/company" data-i18n="header-nav-item5">会社概要</a></li>
+          <li><a href="<?php echo home_url() ?>/info" data-i18n="header-nav-item6">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sns-icons">
+      <a href="https://www.facebook.com/people/%E6%9C%89%E3%81%93%E3%82%93%E3%81%9B%E3%81%84/100057582454245/">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/facebook-icon.svg" alt="facebook-icon">
+      </a>
+      <a href="https://www.instagram.com/konsei_shibori/">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/instagram-icon.svg" alt="instagram-icon">
+      </a>
+    </div>
+    <div class="header-lang-switcher">
+      <button id="langSwitcher">Language</button>
+
+      <div class="header-lang-dropdown" id="langDropdown">
+        <ul>
+          <li>
+            <button id="jpButton">日本語</button>
+          </li>
+          <li>
+            <button id="enButton">English</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="header-menu-icon" id="headerMenuButton">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header-menu.svg" alt="header-menu-icon">
+    </button>
+
+    <div class="header-menu-sp" id="headerMenuSP">
+      <div class="header-menu-sp-top">
+        <a href="<?php echo home_url() ?>" class="header-logo-sp">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="logo-image-sp" class="header-logo-image-sp">
+        </a>
+        <button class="header-menu-icon-close" id="headerMenuButtonClose">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/close-white.svg" alt="close-icon">
+        </button>
+      </div>
+
+      <div class="header-menu-nav-sp">
+        <a href="<?php echo home_url() ?>/about">絞りについて</a>
+        <a href="<?php echo home_url() ?>/experience">体験紹介</a>
+        <a href="<?php echo home_url() ?>/offer">ご予約</a>
+        <a href="<?php echo home_url() ?>/active">活動実績</a>
+        <a href="<?php echo home_url() ?>/company">会社概要</a>
+        <a href="<?php echo home_url() ?>/info">お問い合わせ</a>
+      </div>
+
+      <div class="header-menu-sp-bottom">
+        <div class="sns-icons-sp">
+          <a href="https://www.facebook.com/people/%E6%9C%89%E3%81%93%E3%82%93%E3%81%9B%E3%81%84/100057582454245/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/facebook-icon.svg" alt="facebook-icon">
+          </a>
+          <a href="https://www.instagram.com/konsei_shibori/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/instagram-icon.svg" alt="instagram-icon">
+          </a>
+        </div>
+        <div class="header-lang-switcher-sp">
+          <button id="langSwitcherSP">Language</button>
+        </div>
+      </div>
+    </div>
+  </header>
